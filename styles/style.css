@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    background-color: #F9F9F9;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-color: #D9D9D9;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+ol {
+    list-style-type: none; /* Remove a numeração padrão */
+    counter-reset: item;   /* Reinicia o contador */
+}
+
+ol li {
+    counter-increment: item;   /* Incrementa o contador */
+    margin-bottom: 8px;
+}
+
+ol li::before {
+    content: counter(item) "."; /* Adiciona a numeração */
+    font-weight: bold;          /* Numeração em negrito */
+    margin-right: 8px;
+}
+
+.corpo{
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner{
+    margin-top: 40px;
+}
+
+.header{
+    margin-top: 20px;
+}
+
+.header img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.links {
+    margin-top: 35px;
+    float: right;
+}
+
+.links a{
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    margin: 0 5px;
+    color: black;
+    font-size: 20px;
+}
+
+.section-01 h1{
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+}
+
+.section-01 p{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+.footer-h p{
+    text-align: center;
+    margin-top: 231px;
+    margin-bottom: 60px;
+    margin-top: 431px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;  
+    font-family: "Roboto", sans-serif;
+}
+
+.footer-s p{
+    text-align: center;
+    margin-top: 417px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;  
+    font-family: "Roboto", sans-serif;
+}
+
+.footer-c p{
+    text-align: center;
+    margin-top: 37px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;  
+    font-family: "Roboto", sans-serif;
+}
+
+.corpo-s{
+    margin-top: 40px;
+    width: 1160px;
+    height: 224px;
+}
+
+.corpo-s h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+}
+
+.corpo-s p{
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.corpo-q{
+    margin-top: 30px;
+    width: 1160px;
+    height: 536px;
+}
+
+.corpo-q li{
+    font-family: "Roboto", sans-serif;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.corpo-q h1{
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+}
+
+.contato{
+    width: 560px;
+    height: 128px;
+}
+
+.contato h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+}
+
+.contato p{
+    font-family: "Roboto", sans-serif;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.form{
+    justify-content: flex-start;
+}
+
+.form label{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    display: flex;
+    margin-bottom: 26px;
+    margin-top: 20px;
+}
+
+.form input{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.form h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+}
+
+.form button{
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    width: 260px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    background-color: #1836B2;
+    font-size: 24px;
+    color: white;
+}
+
+#name{
+        width: 560px;
+        height: 40px;
+}
+
+#email{
+    width: 560px;
+    height: 40px;
+}
+
+#tell{
+    width: 560px;
+    height: 40px;
+}
+
+#msg{
+    width: 560px;
+    height: 200px;
+}
+
+.info{
+    width: 1160px;
+    height: 200px;
+}
+
+.info h2{
+    font-family: "Poppins", sans-serif;
+    margin-top: 40px;  
+    margin-bottom: 20px;                                                                                                                                                                         
+    font-size: 24px;
+}
+
+.info p{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+
+}
+
+.info-2{
+    margin-top: 20px;
+}
